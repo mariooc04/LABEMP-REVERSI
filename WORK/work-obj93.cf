@@ -1,0 +1,16 @@
+v 4
+file "/home/kernelripper/Documents/Universidad/CURSO 2024-2025/LABEMP/Fuentes vhdl-20250203/" "celda_base.vhd" "00ed114d1bf5ba8733e498e9727aaa35027ed634" "20250203182912.644":
+  entity celda_base at 1( 0) + 0 on 15;
+  architecture behavioral of celda_base at 11( 283) + 0 on 16;
+file "/home/kernelripper/Documents/Universidad/CURSO 2024-2025/LABEMP/Fuentes vhdl-20250203/" "macro_celda.vhd" "e5b99465a4cb9e7a4f0778fa5da4485ff2b13b31" "20250203182912.598":
+  entity macro_celda at 1( 0) + 0 on 13;
+  architecture behavioral of macro_celda at 25( 1103) + 0 on 14;
+file "/home/kernelripper/Documents/Universidad/CURSO 2024-2025/LABEMP/Fuentes vhdl-20250203/" "matriz_celdas.vhd" "887837de054138bb29a5e7b08dd988ce4699d1d3" "20250203182912.508":
+  entity matriz_celdas at 22( 468) + 0 on 11;
+  architecture behavioral of matriz_celdas at 35( 1095) + 0 on 12;
+file "/home/kernelripper/Documents/Universidad/CURSO 2024-2025/LABEMP/Fuentes vhdl-20250203/" "sim_matrix.vhd" "88d6ff8a6e616d2a76a302f6c67409e743ee2be2" "20250203182841.173":
+  entity sim_matrix at 22( 465) + 0 on 4;
+  architecture behavioral of sim_matrix at 38( 896) + 0 on 4;
+file "/home/kernelripper/Documents/Universidad/CURSO 2024-2025/LABEMP/Fuentes vhdl-20250203/" "test_microcelda.vhd" "d22de7d790fe39e5a1030ba4d3251ccc1197bfaf" "20250203182841.173":
+  entity test_microcelda at 22( 494) + 0 on 4;
+  architecture behavioral of test_microcelda at 38( 908) + 0 on 4;
