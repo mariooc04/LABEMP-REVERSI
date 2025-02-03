@@ -11,11 +11,11 @@ end celda_base;
 architecture Behavioral of celda_base is
 begin
     salida <= (info_in(1) and (not info_in(0)) and (not celda(1)) and (not celda(0)));
-    
+
     info_out(1) <= ((info_in(1) and (not info_in(0)) and celda(1) and (not celda(0))) or 
                     ((not info_in(1)) and info_in(0) and celda(1) and (not celda(0))));
 
     info_out(0) <= ((info_in(1) and (not info_in(0)) and (not celda(1)) and celda(0)) or 
                     ((not info_in(1)) and info_in(0) and (not celda(1)) and celda(0)) or 
-                    ((not info_in(1)) and info_in(0) and celda(1) and ( not celda(0))));
+                    ((not info_in(1)) and info_in(0) and celda(1) and (not celda(0))));
 end Behavioral;
