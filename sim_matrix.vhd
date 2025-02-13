@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineers: Jorge FernÃ¡ndez, Mario Ortega, Javier Julve
+-- NIPs: 839113, 817586, 840710
 -- 
 -- Create Date: 18.02.2016 14:33:12
 -- Design Name: 
@@ -48,14 +49,17 @@ begin
     --tablero vacio
     board <= (others => '0');
     wait for 1 ns;
-   -- siguiendo este esquema podéis poner las casillas que queráis:
+   -- siguiendo este esquema podï¿½is poner las casillas que querï¿½is:
    -- primero se pone el tablero vacio 
     board <= (others => '0');
-   -- después colocas las casillas una a una
-   -- en este ejemplo pongo una casilla negra en la posición (4,3)
+   -- despuï¿½s colocas las casillas una a una
+   -- en este ejemplo pongo una casilla negra en la posiciï¿½n (4,3)
     board(16*4 + 3*2 +1  downto 16*4 + 3*2) <= "10";
-    -- en este una casilla blanca en la posición (4,2)
+    -- en este una casilla blanca en la posiciï¿½n (4,2)
      board(16*4 + 2*2 +1  downto 16*4 + 2*2) <= "01";
+     -- nuestro test (ficha en 3,3 y 2,3)
+     board(16*3 + 3*2 +1  downto 16*3 + 3*2) <= "01";
+     board(16*2 + 3*2 +1  downto 16*2 + 3*2) <= "01";
     --finalmente pones un wait para que el resultado se vea
     wait for 1 ns;
     -- Poned unas cuantas casillas con sentido y comprobad que la salida es correcta
